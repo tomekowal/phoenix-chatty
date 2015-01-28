@@ -14,7 +14,7 @@ use Mix.Config
 config :chatty, Chatty.Endpoint,
   url: [host: "example.com"],
   http: [port: System.get_env("PORT")],
-  secret_key_base: "LNSJ/FP3K2WP9cTI7lEe0BaRLT6mk6pFjgi+SIXi9uAziDn4C7vL0RdVXggwSGit"
+  secret_key_base: "DTbFNLNozttxrGfFFiUqNycbt7Ocsr6MvoVwHQmwl08pzULtULPVTr/d9GX4Hjuv"
 
 # Do not pring debug messages in production
 config :logger, level: :info

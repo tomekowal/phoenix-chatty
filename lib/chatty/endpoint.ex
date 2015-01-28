@@ -21,8 +21,8 @@ defmodule Chatty.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_chatty_key",
-    signing_salt: "sMW45/Ic",
-    encryption_salt: "dhjmpET0"
+    signing_salt: "G6T9HJcs",
+    encryption_salt: "LnE/4FAr"
 
   plug :router, Chatty.Router
 end

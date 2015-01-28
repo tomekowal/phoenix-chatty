@@ -17,6 +17,10 @@ defmodule Chatty.Router do
 
     get "/", PageController, :index
   end
+  socket "/ws" do
+    channel "rooms", Chatty.Channels.Rooms
+  end
+
 
   # Other scopes may use custom stacks.
   # scope "/api", Chatty do

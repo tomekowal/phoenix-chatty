@@ -8,7 +8,7 @@ use Mix.Config
 # Configures the endpoint
 config :chatty, Chatty.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "LNSJ/FP3K2WP9cTI7lEe0BaRLT6mk6pFjgi+SIXi9uAziDn4C7vL0RdVXggwSGit",
+  secret_key_base: "DTbFNLNozttxrGfFFiUqNycbt7Ocsr6MvoVwHQmwl08pzULtULPVTr/d9GX4Hjuv",
   debug_errors: false
 
 # Configures Elixir's Logger
